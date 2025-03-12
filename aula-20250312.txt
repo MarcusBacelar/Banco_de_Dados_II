@@ -65,25 +65,12 @@ DCL -  Comandos de Controle para definir configurações do banco de dados
 
 1. **WHERE -** (Local onde coloco as minhas **condições)**
 
-Ex:
-
-![image.png](attachment:2818fce8-b623-4a0f-a4d5-7adf01c7c4f4:image.png)
-
-Ex: Com condiçoes
-
-![image.png](attachment:7884c6bd-bb29-44a3-aac2-1a4886cab178:image.png)
-
-Ex: com Where
-
-![image.png](attachment:3665fc8c-51e5-45a1-a0a5-3b837173e4b0:image.png)
 
 ## Comandos de Agregação:
 
-Aqui está uma explicação detalhada dos comandos de agregação em SQL que você selecionou:
+Aqui está uma explicação detalhada dos comandos de agregação em SQL:
 
 - **COUNT**: Usado para contar o número de registros em uma tabela ou o número de valores em uma coluna específica. É útil para obter a quantidade total de itens.
 - **MIN/MAX**: Funções que retornam respectivamente o menor (MIN) e o maior (MAX) valor de uma coluna. Útil para encontrar valores extremos em conjuntos de dados.
 - **AVG (Average)**: Calcula a média aritmética dos valores em uma coluna numérica.
 - **SUM**: Soma todos os valores de uma coluna numérica. Como mencionado, é especialmente útil para calcular totais em áreas específicas.
-
-Exemplos práticos de uso:
