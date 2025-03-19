@@ -1,4 +1,4 @@
-medicos
+
 create database clinica;
 use clinica;
 
@@ -164,6 +164,3 @@ INSERT INTO Consultas (codm, codp, data, hora) VALUES
 (3, 8, '2024-03-28', '13:20:00'),
 (4, 9, '2024-03-29', '14:10:00'),
 (2, 10, '2024-03-30', '16:30:00');
-
-
-
