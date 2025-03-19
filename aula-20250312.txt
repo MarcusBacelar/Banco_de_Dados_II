@@ -13,3 +13,64 @@ DDL - Comandos para definição e alteração da estrutura do banco de dados.
 - `ALTER`: Modificação da estrutura de objetos existentes.
 
 DCL -  Comandos de Controle para definir configurações do banco de dados
+
+
+## **Procedimentos:**
+
+1. Baixar e instalar o git 
+2. Fazer conta no github
+3. Criar repositorio
+
+## Comandos:
+
+1. git clone (https://…..)   #Integração com a web para a maquina local. → muito importante mesmo. 
+2. git status      #Mostrar todos os arquivos novos ou modifcados.
+3. git add ( .)     #Ele faz a marcação de um arquivo.
+4. git commit   #Permite adicionar informações que geram o histórico. 
+5. git push          #Importa para web
+
+Se modificar o arquivo só fazer todos os processos novamente.
+
+1. git pull #Puxa atualizações da web para seu computador.
+
+ 
+
+Aulas de Banco de Dados II do curso de Ciência da Computação da Universidade UniCEUB — Centro Universitário de Brasília
+
+-Trabalharemos mais com os comandos de DML e DDL
+
+DML - Comandos de manipulação de dados no SQL WorkBench
+
+- `SELECT`: Recuperação de dados específicos.
+- `INSERT`: Inserção de novos registros.
+- `UPDATE`: Modificação de registros existentes.
+- `DELETE`: Exclusão de registros.
+
+DDL - Comandos para definição e alteração da estrutura do banco de dados.
+
+- `CREATE`: Criação de tabelas, bancos de dados e outros objetos.
+- `ALTER`: Modificação da estrutura de objetos existentes.
+
+DCL -  Comandos de Controle para definir configurações do banco de dados
+
+## CRIAR COMANDO DE SELEÇÃO: IMPORTANTE
+
+→ Fazer exatamente nessa ordem:
+
+1. **SELECT -** (**O que** eu quero trazer) 
+
+→ SELECT * (para trazer todas as colunas)
+
+1. **FROM** -  (**Onde** vou buscar essa informação)→ ex: FROM medicos
+
+1. **WHERE -** (Local onde coloco as minhas **condições)**
+
+
+## Comandos de Agregação:
+
+Aqui está uma explicação detalhada dos comandos de agregação em SQL:
+
+- **COUNT**: Usado para contar o número de registros em uma tabela ou o número de valores em uma coluna específica. É útil para obter a quantidade total de itens.
+- **MIN/MAX**: Funções que retornam respectivamente o menor (MIN) e o maior (MAX) valor de uma coluna. Útil para encontrar valores extremos em conjuntos de dados.
+- **AVG (Average)**: Calcula a média aritmética dos valores em uma coluna numérica.
+- **SUM**: Soma todos os valores de uma coluna numérica. Como mencionado, é especialmente útil para calcular totais em áreas específicas.
